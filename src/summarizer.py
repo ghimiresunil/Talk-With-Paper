@@ -1,15 +1,8 @@
-import os
 import openai
 import pandas as pd
 import streamlit as st
-from dotenv import load_dotenv
 from src.paper_parser import Parser
 from openai.embeddings_utils import get_embedding, cosine_similarity
-
-load_dotenv()
-
-openai.api_key = os.getenv("openai_api_key")
-
 
 class Summarize:
     def __init__(self):
