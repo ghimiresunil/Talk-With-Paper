@@ -19,6 +19,10 @@ To use the app, follow these steps:
 
 `pip install -r requirements.txt`
 
+- Install PyMuPDF
+
+`python -m pip install --upgrade pymupdf` 
+
 - Create a `.env` file in the project directory with your OpenAI API key. The file should contain the following content:
 
 `OPENAI_API_KEY=YOUR_API_KEY`
@@ -28,6 +32,10 @@ To use the app, follow these steps:
 `streamlit run main.py`
 
 Note: Make sure to replace `YOUR_API_KEY` in the `.env` file with your actual OpenAI API key.
+
+# Demo 
+
+![interactive_with_paper](https://user-images.githubusercontent.com/40186859/231659144-e8e6036c-cbb8-4ee5-ac93-101b1151d804.gif)
 
 This app is ready for deployment and can be used to interact with research papers in a user-friendly way. For more details, refer to the provided notebooks.
 
